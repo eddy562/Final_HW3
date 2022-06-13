@@ -10,9 +10,22 @@ import { StyleSheet } from "react-native";
       },
 
     logo:{
-        width:300,
-        height:300,
-    }
+        width:30,
+        height:30,
+    },
+
+    infoButton: {
+      paddingTop: '130%',
+        paddingRight: '7%',
+      alignSelf: 'flex-end'
+    },
+
+    backImage: {
+      width: 320,
+      height: 320,
+      position: 'absolute',
+      resizeMode: 'contain',
+    },
  });
 
  export default styles;

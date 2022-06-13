@@ -1,6 +1,6 @@
 import {View, Text, StyleSheet, Pressable, Image,ImageBackground} from 'react-native'
 import styles from './styles'
-
+import React from 'react';
 export default function ProfileScreen(){
     return(
 
